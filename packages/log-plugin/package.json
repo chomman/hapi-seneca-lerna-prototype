@@ -1,0 +1,17 @@
+{
+  "name": "log-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "boom": "~3.2.2",
+    "hoek": "~4.0.1",
+    "lodash": "~4.13.1"
+  },
+  "devDependencies": {
+    "glue": "~3.3.0"
+  }
+}

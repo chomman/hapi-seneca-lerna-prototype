@@ -1,0 +1,22 @@
+{
+  "name": "product-api-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "boom": "~3.2.2",
+    "hoek": "~4.0.1",
+    "joi": "^9.2.0",
+    "lodash": "~4.13.1"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "glue": "~3.3.0",
+    "istanbul": "~0.4.4",
+    "mocha": "~2.5.3",
+    "sinon": "^1.17.6"
+  }
+}

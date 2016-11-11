@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js -w ../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "~5.8.34",
+    "api-plugin": "*",
+    "glue": "~3.3.0",
+    "hapi": "^15.2.0",
+    "log-plugin": "*",
+    "seneca-plugin": "*",
+    "product-api-plugin": "*"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.5.0",
+    "lerna": "2.0.0-beta.30",
+    "nodemon": "^1.11.0"
+  }
+}

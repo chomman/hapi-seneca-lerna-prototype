@@ -1,0 +1,28 @@
+{
+  "connections": [
+    {
+      "port": 3000,
+      "labels": [
+        "api"
+      ],
+      "routes": {
+        "cors": true
+      }
+    }
+  ],
+  "registrations": [
+    {
+      "plugin": "log-plugin"
+    },
+    {
+      "plugin": "seneca-plugin"
+    },
+    {
+      "plugin": "api-plugin"
+    },
+    {
+      "plugin": "product-api-plugin"
+    }
+
+  ]
+}
