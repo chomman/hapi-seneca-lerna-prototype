@@ -22,7 +22,9 @@
     },
     {
       "plugin": "product-api-plugin"
+    },
+    {
+      "plugin": "math-plugin"
     }
-
   ]
 }

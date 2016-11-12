@@ -16,7 +16,8 @@
     "hapi": "^15.2.0",
     "log-plugin": "*",
     "seneca-plugin": "*",
-    "product-api-plugin": "*"
+    "product-api-plugin": "*",
+    "math-plugin": "*"
   },
   "devDependencies": {
     "eslint": "^3.9.1",

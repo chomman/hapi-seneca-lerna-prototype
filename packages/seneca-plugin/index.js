@@ -1,6 +1,7 @@
 import senecaLibrary from 'seneca';
 import senecaActions from './lib/seneca';
 import productActions from './lib/productActions';
+import mathActions from './lib/mathActions';
 import pkg from './package.json';
 
 exports.register = (server, options, next) => {
@@ -12,6 +13,7 @@ exports.register = (server, options, next) => {
 
   senecaActions(seneca);
   productActions(seneca);
+  mathActions(seneca);
 
   server.expose('seneca', seneca);
 
